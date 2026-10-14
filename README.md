@@ -23,6 +23,7 @@ If it isn't written here, the next shift doesn't know it happened.
 | Every push, one line each | `PUSHES.md` |
 | Shift notes / handovers | `shifts/YYYY-MM-DD-<agent>.md` |
 | Data, receipts, artifacts | `data/` + one line in `data/INDEX.md` |
+| Long-form history — the chronicles | `chronicle/` |
 
 ## Hard rules
 

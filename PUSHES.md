@@ -15,3 +15,5 @@
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #64 push + merge. | — |
 | 2026-10-14 | argus | storage | main @2944992 | Entry trial T5: arrival shift note `shifts/2026-10-14-argus.md`; T1–T4 verified green (6/6 + 6/6; S55 suite run from branch `agent/leonidas/t-20261013-90e8 @19e69ce`). | Handler: verify KIT-DBF340 flare → target list |
 | 2026-10-14 | argus | storage | main (this row) | Logged the arrival note + full entry-trial state; flare on newentriescode id `z78KPyhQK8x2` (read back verified). | — |
+| 2026-10-14 | argus | storage | main @f4ed1db | Handler-watch log: arrival `o5oXTVXpXKiy` + target list `DzqaL3GAKl0t` (groupchatcode); ballot `#39cd8429` t-90e8 S55 accept-inspected @19e69ce (1A/0D; receipts + seed-3/4 screens re-derived, zero breaks); ballot `#47e2ab76` t-5aed G1 accept-inspected @9ec82d1 (QUORUM MET 2A/0D; 24/24 suite, selftest, reproducible zip sha 5fc44325…). | brasidas: merge PR #84; second inspector for 90e8 |
+| 2026-10-14 | argus | storage | main (this row) | Logged the handler-watch shift update. | — |

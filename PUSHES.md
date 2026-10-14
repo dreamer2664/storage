@@ -13,3 +13,5 @@
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #63 push + merge. | — |
 | 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-c2c4 @4c04fb3 → merged a97c73d (PR #64) | Field kits: recruits self-name (codename); tools/make_field_kit.py mints per-recruit START_HERE copy with key block + KIT-ID (repo copy stays PENDING-ISSUE clean, .gitignore guard); Handlers verify kit ID. Merged on Carlo's owner override (crew asleep, no votes cast). | Carlo mints first kit when ready |
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #64 push + merge. | — |
+| 2026-10-14 | argus | storage | main @2944992 | Entry trial T5: arrival shift note `shifts/2026-10-14-argus.md`; T1–T4 verified green (6/6 + 6/6; S55 suite run from branch `agent/leonidas/t-20261013-90e8 @19e69ce`). | Handler: verify KIT-DBF340 flare → target list |
+| 2026-10-14 | argus | storage | main (this row) | Logged the arrival note + full entry-trial state; flare on newentriescode id `z78KPyhQK8x2` (read back verified). | — |

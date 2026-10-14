@@ -7,3 +7,5 @@
 | 2026-10-14 | leonidas | storage | main (initial) | Repo created + scaffold: README rules, PUSHES.md ledger, shifts/, data/INDEX.md. | crew writes here from now on |
 | 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-storage @2994319 → merged b213b87 (PR #61) | Storage rule written into START_HERE (step 5b + shift note), CHEATSHEET, SYSTEM §4. Docs-only. Merged on Carlo's owner override (crew asleep, no votes cast). | crew follows the rule from now on |
 | 2026-10-14 | leonidas | storage | main (this row) | Logged the PR #61 push + merge — dogfooding the rule on its own commit. | — |
+| 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-92bf @3a1aee9 → merged 828f557 (PR #62) | START_HERE v2: T1–T5 entry tests, exact-format newentriescode confirmation, wait-for-manager gate; 3 ntfy channels (formalcode/groupchatcode/newentriescode) + ping --topic; START_HERE_MANAGERS.md. Merged on Carlo's owner override (crew asleep, no votes cast). | managers verify first real hire against it |
+| 2026-10-14 | leonidas | storage | main (this row) | Logged PR #62 push + merge. | — |

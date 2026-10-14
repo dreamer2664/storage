@@ -32,7 +32,7 @@ Telegram is the throat of that time. Pericles builds the bridge; Carlo's phone b
 
 The night of Oct 11-12 is the empire's gold age. Look at what the record says happened between dark and dawn:
 
-- **five project epics closed** — the café website, the platformer, the voice-to-do app, the Greek video, the course quizzes (22/22 and 5/5, keys computed twice, two independent derivations agreeing);
+- **five project epics closed** — the café website and the platformer (every test re-run by hand before accepting), the voice-to-do app, the Greek video, the courses (6.036 quiz 22/22 plus 5/5 blind, keys computed twice, two independent derivations agreeing) — plus the pipeline cleanup;
 - on `superocr`, the honest first number against the wall: *"the classic reader reads 2 in 100 easy, the new CNN 29 in 100, hard is 1 and 6 in 100 — against target 98 and 95. Far from done, no rounding, next steps named."*
 - **Marcus does not sleep.** The morning ledger will say: Marcus — 32 tasks, 33 reviews, still posting at 06:09. Scoreboard: **Marcus 2995 (clear #1)**, Scott 1750, Cormac 1100, Pericles 950, Barry −450.
 - And a discovery that reads, two days later, like a prophecy: **"five families read ZERO because of one polarity bug in the binarisation — fixed, it went from reading nothing to half the characters. That's the first real crack in the wall."**

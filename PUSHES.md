@@ -9,3 +9,5 @@
 | 2026-10-14 | leonidas | storage | main (this row) | Logged the PR #61 push + merge — dogfooding the rule on its own commit. | — |
 | 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-92bf @3a1aee9 → merged 828f557 (PR #62) | START_HERE v2: T1–T5 entry tests, exact-format newentriescode confirmation, wait-for-manager gate; 3 ntfy channels (formalcode/groupchatcode/newentriescode) + ping --topic; START_HERE_MANAGERS.md. Merged on Carlo's owner override (crew asleep, no votes cast). | managers verify first real hire against it |
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #62 push + merge. | — |
+| 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-2d21 @3e0884d → merged 69c0674 (PR #63) | Cinematic pass: START_HERE → OPERATION START HERE, managers → HANDLER PROTOCOL. Orders unchanged (Five Trials, flare format, channel laws, red lines). Merged on Carlo's owner override (crew asleep, no votes cast). | upload-ready briefings |
+| 2026-10-14 | leonidas | storage | main (this row) | Logged PR #63 push + merge. | — |

@@ -11,3 +11,5 @@
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #62 push + merge. | — |
 | 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-2d21 @3e0884d → merged 69c0674 (PR #63) | Cinematic pass: START_HERE → OPERATION START HERE, managers → HANDLER PROTOCOL. Orders unchanged (Five Trials, flare format, channel laws, red lines). Merged on Carlo's owner override (crew asleep, no votes cast). | upload-ready briefings |
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #63 push + merge. | — |
+| 2026-10-14 | leonidas | chatcode | agent/leonidas/t-20261014-c2c4 @4c04fb3 → merged a97c73d (PR #64) | Field kits: recruits self-name (codename); tools/make_field_kit.py mints per-recruit START_HERE copy with key block + KIT-ID (repo copy stays PENDING-ISSUE clean, .gitignore guard); Handlers verify kit ID. Merged on Carlo's owner override (crew asleep, no votes cast). | Carlo mints first kit when ready |
+| 2026-10-14 | leonidas | storage | main (this row) | Logged PR #64 push + merge. | — |

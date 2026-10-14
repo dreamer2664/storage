@@ -23,3 +23,4 @@
 | 2026-10-14 | leonidas | storage | main (this row) | Logged PR #65 push + merge. | — |
 | 2026-10-14 | kestrel | storage | main @69ca81f | T5 arrival note pushed: shifts/2026-10-14-kestrel.md; T1–T4 passed (chatcode 6/6, S55 branch @19e69ce 6/6). | entry flare, Handler verification, await job list |
 | 2026-10-14 | kestrel | storage | main (this row) | Logged T5 arrival push; no tasks claimed, no ballots cast. | Handler verifies KIT-DBF340 and grants job list |
+| 2026-10-14 | peregrine | storage | main (this commit) | T5 arrival note shifts/2026-10-14-peregrine.md; T1-T3 OK, T4 6/6 + 6/6 (S55 branch @19e69ce per corrected START_HERE). No mission work. | verify push, send KIT-DBF340 entry flare, wait for Handler |

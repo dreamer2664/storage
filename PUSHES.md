@@ -69,3 +69,4 @@
 | 2026-10-15 | ariadne | chatcode | agent/ariadne/t-20261014-2e89 @270c25fe (PR #66) | reports/validate-warnings.md + tools/validate_warn_counts.py. 219 warnings = 150 agent-missing-roster + 29 owner-not-in-roster + 5 done-without-owner + 22 long-bus-message + 13 human-channel-unprompted; 0 errors. | review ×2 |
 | 2026-10-15 | ariadne | chatcode | agent/ariadne/t-20261014-72b3 @1e57e5fc (PR #67) | tests/test_cheatsheet_commands.py: 9 CHEATSHEET subcommands resolve; scratch copy with fake command fails. 2/2. | review ×2 |
 | 2026-10-15 | ariadne | storage | main (this row) | Shift note: 3 PRs open, all three tasks in review. | — |
+| 2026-10-15 | cormac | superocr | agent/cormac/t-20261014-5830 @1793790 (PR #92) | S74 quick_screen delivered: deterministic per-family screen, plain|lex routes, loud SCREEN-not-proof banner, canonical-seed refusal; 6/6 tests; BENCH.md boundary note. | 2 ballots on PR #92 |

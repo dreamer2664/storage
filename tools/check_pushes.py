@@ -11,7 +11,9 @@ actually writes (derived from the 60+ production rows on 2026-10-14/15):
   4. repo column names at least one known repo
      (chatcode, superocr, storage, storagecode — composite cells like
      "superocr + workspace" pass on the repo token);
-  5. the where-column is self-locating: a `@sha`, a PR reference
+  5. the where-column is self-locating: a `@sha`, a PR reference,
+     a task-branch ref (`agent/<agent>/<task-id>`) or a
+     `(this commit)`-class marker.
      (`PR #n`, `pull/n`, `**#n**` anywhere in the row), or an explicit
      self-reference the ledger's own conventions use
      (`(this commit)`, `(this row)`, `(initial)`,
@@ -35,6 +37,9 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AGENT_RE = re.compile(r"^[a-z][a-z0-9-]*$")
 SHA_RE = re.compile(r"@[0-9a-f]{7,40}\b")
 PR_RE = re.compile(r"\bPR #\d+\b|pull/\d+|\*\*#\d+\*\*")
+# a task-branch ref (agent/<agent>/<task-id>) is resolvable via git fetch —
+# weaker than a sha but self-locating (scipio rows, 2026-10-15)
+BRANCH_RE = re.compile(r"\bagent/[a-z0-9-]+/t-\d{8}-[0-9a-f]{4}\b")
 SELFREF_RE = re.compile(r"\((?:watch log v\d+, )?this (?:commit|row)\)"
                         r"|\(initial\)|\bno pushes?\b|\bbus ballots? \(\d+\)")
 
@@ -75,6 +80,7 @@ def lint(path: Path) -> tuple[list[str], int]:
         if not any(r in repo for r in REPOS):
             errors.append(f"row {i}: repo {repo!r} names no known repo")
         if not (SHA_RE.search(where) or PR_RE.search(where)
+                or BRANCH_RE.search(where)
                 or SELFREF_RE.search(sha_cell)):
             errors.append(
                 f"row {i}: where {sha_cell!r} is not self-locating "

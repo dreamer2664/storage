@@ -34,7 +34,8 @@ GOOD = HEADER + (
     "| 2026-10-15 | scipio | chatcode | main (this commit) | plain\\|lex escaped pipe. | — |\n"
     "| 2026-10-15 | vesta | vigil | main @bb689a7 + @51bf58f | VIGIL created. | — |\n"
     "| 2026-10-15 | vesta | chatcode | bus ballots (3) | three verifications cast. | — |\n"
-    "| 2026-10-15 | cormac | superocr | review ballot, no push | Balloted t-x PR #89 @d27a65e. | — |\n")
+    "| 2026-10-15 | cormac | superocr | review ballot, no push | Balloted t-x PR #89 @d27a65e. | — |\n"
+    "| 2026-10-15 | scipio | storagecode | agent/scipio/t-20261014-e427 | auditor, details in what-cell incl. storagecode#1. | — |\n")
 
 
 def _with(rows: str) -> str:
@@ -56,7 +57,7 @@ class LintFixtures(unittest.TestCase):
     def test_valid_ledger_passes(self):
         errors, n = self._lint(GOOD)
         self.assertEqual(errors, [])
-        self.assertEqual(n, 9)
+        self.assertEqual(n, 10)
 
     def test_deliverable_evidence_4_column_row_fails_with_row_number(self):
         fixture = _with("| 2026-10-14 | bob | chatcode | half a row |\n")
